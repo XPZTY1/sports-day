@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.container {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card {
+  width: 95%;
+  height: 60%;
+  background: #fff;
+  border-radius: 25px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;  
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 0px rgba(0, 0, 0, 0.23);
+  /* margin: 20px; */
+  padding: 5%;
+}
+
+.container img {
+  padding: 10px;
+  width: 150px;
+  border-radius: 50%;
+  background: #fff;
+  /* padding-top: 20px; */
+}
+
+.content {
+  background: #fff;
+  text-align: center;
+  padding: 0;
+}
+#name {
+  background: #fff;
+  font-family: "Kanit", serif;
+  font-weight: 400;
+  font-size: 25px;
+  font-style: normal;
+  /* padding-top: 5px; */
+  margin: 4px;
+}
+
+#caption {
+  background: #fff;
+  font-family: 'Courier New';
+  padding-top: 3px;
+  /* margin: 4px; */
+  margin: 0;
+}
+
+.socail {
+  /* background: red; */
+  /* text-align: center; */
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.bi {
+  color: #5e5e5e;
+  background: #fff;
+  /* padding: 10px; */
+}
+
+.IG {
+  font-size: 20px;
+  background-color: #fff;
+  padding: 5px;
+}
+
+.F {
+  font-size: 20px;
+  background-color: #fff;
+  padding: 5px;
+}
+
+p.icon {
+  margin-bottom: 5px;
+  display: flex;
+}
+
+p.text-money {
+  margin: 0%;
+} 
+
+
+.icon-socail {
+  margin-bottom: 10px;
+  display: block;
+  justify-content: center;
+  margin: 0;
+  text-align: center;
+  align-items: center;
+}
+
+.icon-socail p{
+  margin: 0;
+}
+
+
+.follow {
+  padding: 5px;
+}
+
+.IG :hover {
+  transform: scale(1.2);
+  color: #ff7f50;
+  /* สีเมาส์ชี้ */
+}

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+img {
+    width: 300px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.19), 0 0px rgba(0, 0, 0, 0.23);
+    background: #fff;
+    border-radius: 25px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.qr-code {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+}
+
+.container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    padding: 20px;
+}
