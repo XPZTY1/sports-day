@@ -40,18 +40,29 @@
   padding: 0;
 }
 #name {
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+
   background: #fff;
-  font-family: "Kanit", serif;
+  /* font-family: "Kanit", serif;
   font-weight: 400;
   font-size: 25px;
-  font-style: normal;
+  font-style: normal; */
   /* padding-top: 5px; */
   margin: 4px;
 }
 
 #caption {
+  font-family: "Thasadith", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+
   background: #fff;
-  font-family: 'Courier New';
+  /* font-family: 'Courier New'; */
   padding-top: 3px;
   /* margin: 4px; */
   margin: 0;
@@ -106,13 +117,28 @@ p.text-money {
   margin: 0;
 }
 
+p{
+  font-family: "Anuphan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
 .follow {
   padding: 5px;
 }
-
+a.btn {
+  padding: 0 10px;
+  font-size: 12px;
+}
 .IG :hover {
   transform: scale(1.2);
-  color: #ff7f50;
+  color: #5053ff;
+  /* สีเมาส์ชี้ */
+}
+
+.F :hover {
+  transform: scale(1.2);
+  color: #5053ff;
   /* สีเมาส์ชี้ */
 }
