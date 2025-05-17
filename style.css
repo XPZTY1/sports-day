@@ -5,6 +5,10 @@
 
 }
 
+body {
+  background-color: #bebefa;
+}
+
 .container {
   height: 90vh;
   display: flex;
@@ -96,9 +100,10 @@
 
 p.icon {
   margin-bottom: 5px;
-  display: flex;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
 }
-
 p.text-money {
   margin: 0%;
 } 
@@ -126,6 +131,7 @@ p{
 
 .follow {
   padding: 5px;
+  margin-bottom: 10px;
 }
 a.btn {
   padding: 0;
